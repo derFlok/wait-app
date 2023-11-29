@@ -1,0 +1,12 @@
+{
+    "name": "React Native Development",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": { "VARIANT": "14" }
+    },
+    "settings": {},
+    "extensions": ["dbaeumer.vscode-eslint"],
+    "forwardPorts": [],
+    "postCreateCommand": "yarn install",
+    "remoteUser": "node"
+}
